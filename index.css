@@ -510,7 +510,7 @@ html{
 @media screen and (max-width: 415px){
 	
 	.viscounter{
-		justify-content: center;
+		justify-content: center !important;
 	}
     .part1{
         flex-direction: column;
