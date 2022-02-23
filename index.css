@@ -326,7 +326,8 @@ html{
     border-radius: 32px;
     transition: all;
     transition-duration: 1s;
-    z-index: 5;
+    /* z-index: 5; */
+    z-index: 0;
 }
 
 .card:hover{
@@ -508,10 +509,11 @@ html{
 
 
 @media screen and (max-width: 415px){
-	
-	.viscounter{
+    
+    .viscounter{
 		justify-content: center !important;
 	}
+
     .part1{
         flex-direction: column;
     }
@@ -629,6 +631,10 @@ html{
     .part8 img{
         height: 150px;
     }
+
+    .coun{
+        display: none;
+    }
 }
 
 /* RESPONSIVE */
@@ -640,7 +646,6 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-	flex-wrap:wrap;
 }
 
 .sectionText{
